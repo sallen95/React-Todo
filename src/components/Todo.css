@@ -1,3 +1,18 @@
 .task.completed {
     text-decoration: line-through;
 }
+
+body {
+    text-align:center;
+    background-color: #2F4F4F;
+}
+
+h1 {
+    color:white;
+    -webkit-text-stroke: 1px black;
+}
+
+.task {
+    color: white;
+}
+

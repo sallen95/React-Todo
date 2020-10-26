@@ -57,7 +57,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h2>Git 'Er Done</h2>
+        <h1>Git 'Er Done</h1>
         <TodoList todo={this.state.todos} handleToggleTask={this.handleToggleTask}/>
         <TodoForm handleAddTodo={this.handleAddTodo} handleClearSubmitTasks={this.clearTasks} />
       </div>
